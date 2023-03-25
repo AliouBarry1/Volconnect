@@ -72,7 +72,7 @@ let boroughOpportunities = {
       location: "Staten Island",
       passion: "Give food to the homeless and anyone that is going through anything.",
       descripition: "This Staten Island-based organization serves the hungry and homeless, as well as people living with HIV & AIDS, the mentally ill and people battling addiction. They are always looking for volunteers, ages 16 and older, to assist in their soup kitchen, food and clothing pantries, with child care services, tutoring, fundraising events, and more. For more information on volunteering and to download an application, go to projecthospitality.org. To make a monetary donation, visit the website.",
-      img: "http://www.projecthospitality.org/wp-content/uploads/2018/02/our.mission.jpg"
+      image: "http://www.projecthospitality.org/wp-content/uploads/2018/02/our.mission.jpg"
     },
     {
       name: "South Shore Community Pantry",
