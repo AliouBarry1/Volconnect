@@ -1,0 +1,36 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+ background-image: url("https://t3.ftcdn.net/jpg/02/44/17/82/360_F_244178265_NP4S8WdlZRGYVSkVkxhtiDonSfQPAbyO.jpg");
+text-align: center;
+  font-family: Helvetica;
+}
+
+#Upload {
+  width:65vw;
+  margin-left: 16vw;
+  background-color: rgba(100, 100, 100, 0.5); /* for testing*/
+  color:white;
+  border-radius: 60px;
+  text-align:center;
+  margin-top: 100px
+}
+
+#Form {
+  display: flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  width:50%;
+  margin-left: 25%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.mapImage{
+width:200px;
+  
+}
+.pic{
+  width:100px;
+}

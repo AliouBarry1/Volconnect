@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="opportunties.css" rel="stylesheet" type="text/css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="topnav">
+    <a href="./index.html">Home</a>
+    <a href="./opportunities.html">Find opportunities</a>
+    <a href="./uploading.html">Upload</a>
+  </div>
+
+  <div class="opportunities-page">
+    <div class="opportunities-page-map">
+      <img class="mapImage" src="/map1.png" usemap="#nycMap">
+      <map name="nycMap">
+        <area class="map-touch" target="_blank" alt="" id="bronx" coords="486,9,463,52,473,67,437,172,587,186,619,84"
+          shape="poly">
+        <area class="map-touch" target="_blank" alt="" id="manhattan" coords="457,71,350,213,300,312,351,314,397,228" shape="poly">
+        <area target="_blank" alt="" id="queens"
+          coords="477,355,387,271,454,208,565,205,644,247,694,302,655,339,641,449,583,481,506,419" shape="poly">
+        <area target="_blank" alt="" id="brooklyn"
+          coords="381,285,426,349,474,384,441,542,296,540,266,426,298,359" shape="poly">
+        <area target="_blank" alt="" id="staten-island"
+          coords="220,439,87,446,38,586,13,678,77,658,151,623,249,510" shape="poly">
+      </map>
+    </div>
+    <div id="listings-containers" class="Listings">
+      <!-- Right side of page(listings with images and description)  -->
+      <div class="Listing">
+        <img class="pic"
+          src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*">
+        <h3> Listing Name </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est
+          laborum.</p>
+      </div>
+ <div class="Listing">
+        <img class="pic"
+          src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*">
+        <h3> Listing Name </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est
+          laborum.</p>
+      </div>
+       
+      <div class="Listing">
+        <img class="pic"
+          src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*">
+        <div class="Listing-Content">
+          <h3> Listing Name </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est
+            laborum.</p>
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="opportunities.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+}
+
+.opportunities-page{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.l-image {
+  height: 100px;
+  width: 100px;
+}
+
+.opportunities-page-map{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.mapImage{
+}
+
+
+.opportunities-page{
+  display:flex;
+}
+
+.Listings{
+  color:black;
+  display:flex;
+/*   flex-wrap:wrap; */
+/*   flex-direction: row; */
+  width:100%;
+  height: 100%;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding:10px;
+  flex-direction: column;
+
+  
+}
+
+.pic{
+
+  width: 130px;
+  height: 130px;
+  margin-right:20px;
+}
+
+.Listing {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  display:flex;
+  padding-left:30px;
+  margin-bottom:15px;
+/*   background-color: red; /* to visualize its size */ 
+  text-align: center;
+border:3px solid black;
+  border-radius:20px;
+  
+}
+button{
+  width: 130 px ;
+  height: 130px;
+  display: felx;
+  position: center;
+}
